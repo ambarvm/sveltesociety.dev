@@ -53,7 +53,7 @@ export const cheatSheet = [
 
 <p>My e-mail is {email}</p>
 <p>{user.name}</p>
-<p>{cat + \`s\`}</p>
+<p>{cat + "s"}</p>
 <p>{\`name \${user.name}\`}</p>`
 	},
 	{
@@ -337,7 +337,7 @@ import Widget from '.Widget.svelte'
 ...
 </div>
 
-<div class:active={active} class={\`otherClass \${type}\`}>
+<div class:active={active} class="otherClass {type}">
 ...
 </div>
 
